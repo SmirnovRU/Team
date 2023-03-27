@@ -1,0 +1,25 @@
+.button {
+  display: none;
+  border: none;
+  background-color: var(--violet);
+  color: var(--white);
+  width: 29px;
+  height: 29px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: var(--violet-ligth);
+  cursor: pointer;
+}
+.button:active {
+  scale: 1.02;
+}
+
+@media screen and (max-width: 525px) {
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

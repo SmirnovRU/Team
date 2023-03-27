@@ -1,0 +1,112 @@
+.user__container {
+  width: 100%;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.user__avatar {
+  margin: 39px 32px 39px 29px;
+  border-radius: 50%;
+  width: 184px;
+  height: 184px;
+}
+
+.user__title {
+  text-align: start;
+  margin: 68px 0 0 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.user__content {
+  margin: 16px 0 0 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: left;
+}
+
+.button {
+  margin: 32px 0 0 0;
+}
+
+.container {
+  display: flex;
+  margin: 49px 0 30px 188px;
+}
+
+.box {
+  width: 632px;
+  text-align: left;
+}
+
+.contact__info {
+  margin-left: 130px;
+}
+
+.contact__box {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.contact__text {
+  padding-left: 10px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.19%;
+  padding-bottom: 16px;
+}
+
+@media screen and (max-width: 525px) {
+  .wrapper {
+    height: 412px;
+  }
+
+  .button {
+    margin: 12px 0 0 0;
+    width: 29px;
+  }
+
+  .user__container {
+    flex-direction: column-reverse;
+  }
+
+  .user__title {
+    text-align: center;
+    margin: 64px auto 0;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .user__content {
+    text-align: center;
+    margin: 16px auto 0;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .user__avatar {
+    margin: 16px auto 64px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    margin: 32px 0 0 32px;
+  }
+
+  .contact__info {
+    margin-left: 0px;
+  }
+
+  .box {
+    width: 334px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,30 @@
+.button {
+  border: 1px solid var(--white);
+  background-color: var(--violet);
+  color: var(--white);
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.19%;
+}
+
+.padding {
+  padding: 16px;
+  margin: 24px 0 0 0;
+}
+
+.button:hover {
+  background-color: var(--violet-ligth);
+  cursor: pointer;
+}
+.button:active {
+  scale: 1.02;
+}
+
+@media screen and (max-width: 525px) {
+  .mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,52 @@
+.user__container {
+  background: #ffffff;
+  box-shadow: 0px 0.996045px 3.98418px rgba(51, 51, 51, 0.15);
+  border-radius: 10px;
+  width: 305px;
+  height: 263px;
+}
+
+.user__box:hover {
+  cursor: pointer;
+}
+
+.user__avatar {
+  border-radius: 50%;
+  width: 124px;
+  height: 124px;
+  margin: 36px 0 16px 0;
+}
+
+.user__name {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 400;
+  padding: 0 0 16px 0;
+}
+
+.user__hearz__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin: 0 20px 20px 0;
+}
+
+.user__hearz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-light);
+  width: 30px;
+  height: 28px;
+}
+
+.user__hearz:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.user__hearz:active {
+  scale: 0.9;
+  cursor: pointer;
+}

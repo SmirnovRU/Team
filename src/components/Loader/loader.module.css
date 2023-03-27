@@ -1,0 +1,36 @@
+.spinner {
+  animation: rotate 2s linear infinite;
+  position: absolute;
+  margin: -50px 0 0 -50px;
+  top: 35%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: 5;
+}
+.path {
+  stroke: hsl(233, 69%, 50%);
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}

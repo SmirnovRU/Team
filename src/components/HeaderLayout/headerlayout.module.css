@@ -1,0 +1,16 @@
+.header {
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--violet);
+  color: var(--white);
+  height: 100%;
+}
+
+@media screen and (max-width: 525px) {
+  .header {
+    padding: 0 16px;
+  }
+}

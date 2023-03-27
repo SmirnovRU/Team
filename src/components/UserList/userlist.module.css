@@ -1,0 +1,38 @@
+.container {
+  padding-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 305px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.19%;
+  background-color: var(--white);
+  border: 1px solid #151317;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 56px 0 56px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--gray-light);
+}
+
+.button:active {
+  background-color: var(--white);
+}
+
+@media screen and (max-width: 525px) {
+  .container {
+    padding-top: 32px;
+    grid-template-columns: 305px;
+  }
+
+  .button {
+    margin: 32px 0 32px;
+  }
+}
